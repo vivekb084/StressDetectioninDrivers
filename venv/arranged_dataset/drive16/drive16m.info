@@ -1,0 +1,15 @@
+Source: record drivedb/drive16
+val has 7 rows (signals) and 60418 columns (samples/signal)
+Duration:  1:04:57
+Sampling frequency: 15.5 Hz  Sampling interval: 0.06451612903 sec
+Row	Signal	Gain	Base	Units
+1	ECG	1000	0	mV
+2	EMG	1000	0	mV
+3	foot GSR	1000	0	mV
+4	hand GSR	1000	0	mV
+5	HR	1	0	bpm
+6	marker	100	0	mV
+7	RESP	100	0	mV
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.
